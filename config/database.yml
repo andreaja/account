@@ -1,0 +1,12 @@
+sqlite:
+  adapter:  sqlite3
+  database: db/account.sqlite3
+  timeout: 15000
+postgres:
+  adapter:  postgresql
+  database: account
+  username: account
+  password: account
+  host:     localhost
+  schema_search_path: public
+  encoding: utf8
